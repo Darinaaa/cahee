@@ -1,0 +1,469 @@
+body {
+    font-family: "Lato";
+    overflow-x: hidden;
+    min-width: 320px;
+}
+.header__logo {
+    float: left;
+     font-size: 60px;
+    color: rgb(48, 48, 48);
+    font-weight: 900;
+}
+.header__nav {
+    float: right;
+    font-size: 0;
+}
+.header__nav > li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+    border-top: 2px solid transparent;
+
+}
+.header__nav > li:hover{
+	border-top: 2px solid #ff6033;
+}
+.main_section {
+    width: 80%;
+    margin: 0 auto;
+    background-size: cover;
+ 	height: 100%;
+
+    }
+.section1{
+height: 900px;
+background-size: cover;
+background-position: center;
+
+ min-height: 100vh;
+ background: url(../images/background.jpg) no-repeat center;
+ background-size: cover;
+    height: 1px;
+}
+.header {
+    line-height: 51px;
+    padding-top: 20px;
+
+} 
+.header:after {
+	content: "";
+  	display: table;
+  	clear: both;
+}
+.header__nav a {
+    font-size: 18px;
+    color: rgb(48, 48, 48);
+}
+.header a {
+    text-decoration: none;
+}
+.header__logo{
+font-family: 'Pacifico';
+color:  #262626;
+font-size: 20px;
+font-weight: 400;
+line-height: 25px
+}
+.main__text{
+margin: 200px 0 0;
+font-family: 'Raleway';
+color:  #262626;
+font-size: 50px;
+font-weight: 800;
+line-height: 25px;
+width:30%;
+}
+.main__text p{
+margin-top: 30px;
+font-family:'Raleway';
+color:  #262626;
+font-size: 17px;
+font-weight: 300;
+line-height: 27px;
+}
+.orange-button{
+	font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+	padding: 10px;
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    background-color:  #ff6033;
+    color: #fff;
+}
+.section2{
+	background-color:  #00c4c4;
+	height: 700px;
+}
+.clear-fix:after { 
+content: ""; 
+display: table; 
+clear: both; 
+}
+
+.text{
+ width: 40%;
+ float: right;
+ margin-top: 200px;
+}
+.text h1{
+font-family: 'Raleway';
+color:  white;
+font-size: 40px;
+font-weight: 900;
+line-height: 27px;
+}
+.text p{
+font-family: 'Raleway';
+color:  black;
+font-size: 17px;
+font-weight: 300;
+line-height: 27px;
+text-align: left;
+margin-top: 20px;
+color: white;
+}
+.cup{
+	width: 570px;
+	margin-top: 100px;
+}
+.section3 {
+    height: 750px;
+    background-color: #70bfff;
+    position: relative;
+    padding-top: 100px;
+}
+.services__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7%;
+}
+.services__list {
+    list-style: none;
+    margin-right: 120px;
+}
+.services__link {
+    display: flex;
+    background-color: #fff;
+    text-decoration: none;
+    color: black;
+    width: 300px;
+    text-align: center;
+    align-items: center;
+    height: 70px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+    margin-top: 15px;
+}
+.services__link span {
+    width: 70%;
+    font-weight: 700;
+    margin: 0 auto;
+}
+.iconbox {
+    height: 100%;
+    border-left: 1px solid black;
+    width: 25%;
+}
+.services__icon {
+    margin-top: 10px;
+    height: 55px;
+    width: 55px;
+    padding: 5px;
+}
+.services__img {
+    position: absolute;
+    right: 15%;
+}
+.services__title {
+    font-size: 80px;
+    color: #fff;
+    z-index: 2;
+    font-weight: 700;
+}
+.section4 {
+    height: 1350px;
+    background-color: #ffe92f;
+}
+.description{
+    text-align: center;
+}
+.title{
+font-family: 'Raleway';
+color: #262626;
+font-size: 90px; 
+font-weight: 700;
+line-height: 27px;
+padding-top: 75px;
+    
+}
+.title_descr{
+font-family:'Raleway';
+color: #262626;
+font-size: 17px; 
+font-weight: 300;
+line-height: 27px; 
+line-height: 1.4;
+margin-top: 50px;
+color: white;
+
+}
+.picture{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.picture_container1 {
+    width: 68%;
+    margin-right: 15px;
+}
+.picture_containers {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.picture_container2 {
+    margin-bottom: 10px;
+}
+.picture_container4 {
+    margin-top: 15px;   
+    margin-right: 2%;
+    width: 49%;
+}
+.picture_container-img5 {
+    margin-top: 15px;
+    width: 48.5%;
+}
+.section5{
+     height: 500px;
+    background: url('../images/bg.png') no-repeat center ;
+    background-size: contain;
+}
+.subscribe_title{
+    font-family: Raleway;
+color: #262626;
+font-size: 40px; 
+line-height: 27px;
+}
+.subscribe_descr{
+    font-family: 'Raleway';
+color: #262626;
+font-size: 17px; 
+font-weight: 300;
+line-height: 27px;
+
+}
+.subscribe{
+
+    width: 80%;
+   margin-left: 100px;
+}
+.subscribe_title {
+    font-size: 50px;
+    color: #262626;
+    font-weight: 700;
+    padding-top: 15%;
+    margin-bottom: 20px;
+}
+.subscribe_descr {
+    line-height: 1.4;
+    font-size: 18px;
+    font-weight: 300;
+    width: 70%;
+}
+.subscribe_input {
+    width: 50%;
+    height: 50px;
+    margin-top: 20px;
+    border: 1px solid #262626;
+    padding-left: 10px;
+    box-sizing: border-box;
+    font-size: 18px;
+    outline: none;
+}
+.subscribe_btn {
+    background-color: #96b92c;
+    color: white;
+    height: 50px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    border: none;
+    margin-left: 20px;
+    width: 150px;
+    cursor: pointer;
+}
+.subscribe_form{
+    width: 80%;
+    margin-left: 100px;
+}
+.section6 {
+    background-color: #b07cf7;
+    height: 800px;
+}
+.title {
+    text-align: center;
+    font-size: 60px;
+    color: #fff;
+    font-weight: 700;
+    padding-top: 90px;
+}
+.descr {
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.blog {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.recipes {
+    z-index: 3;
+    margin-right: 20px;
+    height: 350px;
+    width: 400px;
+    position: relative;
+}
+.artcl1 {
+    background: url('../images/rec1.png') no-repeat center center;
+}
+.artcl2 {
+    background: url('../images/rec2.png') no-repeat center center;
+}
+.artcl3 {
+    background: url('../images/rec3.png') no-repeat center center;
+}
+.date span {
+    font-size: 24px;
+}
+.date {
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 5px;
+    background-color: rgba(38, 38, 38, 0.5);
+    width: 60px;
+}
+.recipes_title {
+    position: absolute;
+    width: 80%;
+    bottom: 20%;
+    left: 5%;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 700;
+}
+.recipes_descr {
+    color: #fff;
+    font-weight: 300;
+    font-size: 16px;
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+}
+.blog_form {
+    width: 20px;
+    height: 55px;
+    margin: 30px auto;
+}
+.blog_btn {
+ background-color:  #f72b3b;
+box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+width: 200px;
+height: 55px;
+border: none;
+color: white;
+
+}
+.section7{
+    background: url('../images/bc.png');
+    height: 800px;
+}
+.contact
+ {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 80px;
+    font-weight: 700;
+    margin-top: 0;
+}
+.contact_descr {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: center;
+    margin-top: 25px;
+}
+.contact_container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.form-list {
+    list-style: none;
+}
+.form-list li {
+    margin-bottom: 10px;
+}
+.form-input {
+    background-color: rgba(0, 196, 196, 0.5);
+    height: 50px;
+    width: 450px;
+    border: none;
+    border-left: 7px solid rgba(0, 196, 196, 0.5);
+    padding-left: 15px;
+    color: #fff;
+    font-size: 20px;
+    transition: .3s ease;
+    outline: none;
+}
+.form-input:focus {
+    border-left: 7px solid #355b82;
+}
+.message {
+    height: 200px;
+    padding-top: 20px;
+}
+.info {
+    width: 30%;
+    margin-left: 100px;
+    line-height: 1.4;
+}
+.email {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bold {
+    font-weight: 700;
+}
+footer{
+background-color:  #262626;
+height: 90px;
+}
+.logo{
+    font-size: 30px;
+    color:black;
+    font-weight: 900;
+    font-family: 'Pacifico';
+    text-decoration: none;
+    text-align: center;
+}
+.footer{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.comment{
+    color:  #ff2b58;
+}
